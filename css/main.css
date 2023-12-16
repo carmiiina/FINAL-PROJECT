@@ -4,7 +4,9 @@
 	padding: 0;
     box-sizing: border-box;
 }
-
+html,body {
+    height: 100% ;
+}
 html {
 	background-color: #FFFFFF;
 }
@@ -69,20 +71,22 @@ body {
 }
 .footer {
     position: absolute;
-    height: 50px;
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 0.5rem;
+    font-size: 1rem; /* Adjust as needed */
     background-color: #212529;
 }
 .wrapper {
     height: 1000px;
     position: relative;
 }
-html,body {
-    height: 100% ;
+/* Adjust styles for screens up to 768 pixels wide */
+@media (max-width: 768px) {
+    .navbar {
+        position: static;
+    }
 }

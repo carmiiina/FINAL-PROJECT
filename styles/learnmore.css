@@ -100,7 +100,16 @@ body {
     text-align: center;
     padding: 10px;
     font-size: 0.5rem;
+    margin-top: 20px; /* Adjust the margin as needed */
     background-color: #212529;
+}
+/* Add styles to the links in the footer */
+footer a {
+    color: #FFFFFF; /* Set link color */
+}
+/* Add styles to the links on hover */
+footer a:hover {
+    text-decoration: underline; /* Underline the link on hover */
 }
 .wrapper {
     height: 1000px;
