@@ -1,0 +1,87 @@
+/*DEVELOPER: Carmina Tolome, IS117-001, Fall 2023 */
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+html {
+	background-color: white;
+    padding-bottom: 5%; /* Add padding to the bottom */
+    border: 2% solid #FFFFFF; /* Add a 2px solid black border */
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    position: relative;
+    padding-left: 1em;
+}
+ul li::before {
+    content: '\25B6'; /* Unicode character for a right-pointing triangle */
+    position: absolute;
+    left: 0;
+    font-size: 0.8em; /* Adjust the font size to make the triangle smaller */
+}
+body {
+	font-family: 'Afacad', sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    vertical-align: middle;
+}
+/*space between logo and text */
+.navbar-text {
+    padding-left: 10px;
+}
+/* FOOTER CONTENT*/
+.bg-body-tertiary{
+    background-color: #212529; 
+    font-weight: bolder;
+    margin-top: 100;
+    width: 100%;
+    clear: both;
+}
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
+.content-wrap{
+    padding-bottom: 100px;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.my-custom-text {
+    font-size: 1.25em;
+    line-height: 1.5; 
+}
+/* FOOTER STUFF */
+.footer {
+    position: absolute;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+    background-color: #212529;
+}
+.wrapper {
+    height: 1000px;
+    position: relative;
+}
+html,body {
+    height: 100% ;
+}
+
+/*NEW | ADDING MARGINS TO IMAGES */
+.custom-img {
+    padding-bottom: 1%; /* Add padding to the bottom */
+    margin: 10px; /* Add margin around the image */
+    border: 2px solid #FFFFFF; /* Add a 2px solid black border */
+}

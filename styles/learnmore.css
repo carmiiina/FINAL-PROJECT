@@ -8,6 +8,29 @@
 html {
 	background-color: #FFFFFF;
 }
+/* Remove unnecessary padding and margin for the container and content-wrap */
+.page-container {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.content-wrap {
+    padding-bottom: 0;
+}
+
+/* Adjust the footer styling */
+.footer {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+    background-color: #212529;
+    clear: both;
+}
+
 /* float right aside */
 .body-aside {
     float: left;

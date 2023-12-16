@@ -42,12 +42,12 @@ body {
 .nav-item{
     padding-right: 10px;
 }
+/* FOOTER CONTENT*/
 .bg-body-tertiary{
     background-color: #212529; 
     font-weight: bolder;
-    margin-top: 100px;
+    margin-top: 1%;
     bottom: 0; 
-    position: absolute; 
     width: 100%;
     clear: both;
 }
@@ -55,9 +55,7 @@ body {
     position: relative;
     min-height: 100vh;
 }
-.content-wrap{
-    padding-bottom: 400px;
-}
+
 .bottom-left{
     position: absolute;
     bottom: 8px;
@@ -67,6 +65,7 @@ body {
     font-size: 1.25em;
     line-height: 1.5; 
 }
+/* FOOTER STUFF */
 .footer {
     position: absolute;
     height: 50px;

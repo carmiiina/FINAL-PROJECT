@@ -1,0 +1,10 @@
+/* FONT FAMILY */
+@font-face {
+    font-family: 'Afacad';
+    src: url('../fonts/Afacad/static/Afacad-Regular.ttf') format('truetype'),
+         url('../fonts/Afacad/static/Afacad-Medium.ttf') format('truetype'),
+         url('fonts/Afacad/static/Afacad-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
