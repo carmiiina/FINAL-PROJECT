@@ -1,0 +1,92 @@
+/*DEVELOPER: Carmina Tolome, IS117-001, Fall 2023 */
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100% ;
+}
+html {
+	background-color: #FFFFFF;
+}
+/* float right aside */
+.body-aside {
+    float: left;
+    clear: both;
+}
+/*space between logo and text */
+.navbar-text {
+    padding-left: 10px;
+}
+body {
+    font-size: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.card {
+    margin: 0;
+    padding: 10px;
+    position: center;
+}
+.li-title {
+    list-style: none;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+.li-body {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.nav-item{
+    padding-right: 10px;
+}
+.bg-body-tertiary{
+    background-color: #212529; 
+    font-weight: bolder;
+    margin-top: 100px;
+    bottom: 0; 
+    position: absolute; 
+    width: 100%;
+    clear: both;
+}
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
+.content-wrap{
+    padding-bottom: 400px;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.my-custom-text {
+    font-size: 1.25em;
+    line-height: 1.5; 
+}
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem; /* Adjust as needed */
+    background-color: #212529;
+}
+.wrapper {
+    height: 1000px;
+    position: relative;
+}
+/* Adjust styles for screens up to 768 pixels wide */
+@media (max-width: 768px) {
+    .navbar {
+        position: static;
+    }
+}
